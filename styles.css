@@ -1,0 +1,26 @@
+/*Styles Page*/
+
+/*Body Styles*/
+
+body{
+    background-color: red;
+
+}
+.titlename{
+    text-align:center;
+
+}
+#calculatorbox {
+    background-color: black;
+    border: 1px;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+#displaybox{
+    background-color:blue;
+    height: 50px;
+    text-align: center;
+    width:200px;
+    margin: 0 auto;
+}
