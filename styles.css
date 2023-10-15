@@ -18,9 +18,44 @@ body{
     height: 300px;
 }
 #displaybox{
+    
     background-color:blue;
     height: 50px;
     text-align: center;
     width:200px;
     margin: 0 auto;
+    
+}
+
+.calculatorbut {
+    
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    background-color: green;
+    width: 250px;
+    height: 150px;
+    margin: 50px 25px;
+}
+.container-button {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    margin: 5px;
+    align-items: center;
+}
+#resetbutton {
+   
+}
+#multiplybutton {
+ 
+}
+#equalsbutton {
+    
+}
+#plusbutton {
+    
+}
+#minusbutton {
+   
 }
